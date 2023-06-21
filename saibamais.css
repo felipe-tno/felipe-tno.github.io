@@ -9,6 +9,10 @@
     justify-content: center;
 }
 
+h2{
+    text-transform: uppercase;
+}
+
 img{
     width: 250px;
 }
