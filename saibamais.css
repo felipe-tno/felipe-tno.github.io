@@ -38,3 +38,43 @@ img{
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    #detalhes {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #detalhes {
+        flex-direction: row;
+    }
+
+    img {
+        margin-right: 20px;
+    }
+
+    .informacoes {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    h1 {
+        margin-top: -70px;
+    }
+
+    h2 {
+        margin-top: 100px;
+        padding: 10px;
+        margin-left: -100px;
+    }
+
+    h4 {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+}
