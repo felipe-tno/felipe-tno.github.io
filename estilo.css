@@ -1,0 +1,48 @@
+#elenco-feminino{
+    flex-wrap: wrap;
+    color: white;
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#elenco-masculino{
+    flex-wrap: wrap;
+    color: white;
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+@media screen and (min-width: 768px){
+    #elenco-masculino{
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
+    #elenco-feminino{
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #elenco-masculino{
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    }
+    #elenco-feminino{
+        grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    }
+}
+
+body{
+   background-color: black;
+   color: white;
+}
+
+.jogador{
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
