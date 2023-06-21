@@ -12,6 +12,14 @@
     grid-template-columns: 2fr 2fr;
 }
 
+#pai{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (min-width: 768px){
     #elenco-masculino{
         grid-template-columns: 2fr 2fr 2fr 2fr;
